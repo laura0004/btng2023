@@ -1,0 +1,212 @@
+:root {
+  --maroon: maroon;
+  --grey: grey;
+  --maroonterang: rgb(172, 70, 70);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin-inline: 100px;
+}
+
+nav {
+  background-color: var(--maroon);
+  padding-block: 18px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 black;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  margin-inline: 10px;
+  font-size: 16px;
+}
+
+#home {
+  background-color: var(--grey);
+  text-align: center;
+  padding-block: 100px;
+  padding-top: 150px;
+}
+
+#home img {
+  width: 200px;
+  border-radius: 100px;
+  border: solid 5px var(--maroon);
+}
+
+#home h1 {
+  font-size: 40px;
+  margin-block: 10px;
+}
+
+#home h4 {
+  font-size: 20px;
+}
+
+section {
+  padding-block: 70px;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  /* margin-block: 40px; */
+  margin-bottom: 40px;
+}
+
+#about p {
+  font-size: 20px;
+  text-align: center;
+  padding-inline: 250px;
+}
+
+#pengantin {
+  background-color: var(--grey);
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 black;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+}
+
+#artist .box-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#artist .box {
+  background-color: var(--grey);
+  padding: 30px;
+  border-radius: 10px;
+  border: solid 1px var(--maroon);
+  width: 400px;
+}
+
+#artist .box h1 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#artist .box li {
+  font-size: 20px;
+}
+
+#wedser {
+  background-color: var(--grey);
+}
+
+#wedser p {
+  font-size: 20px;
+  text-align: center;
+  padding-inline: 250px;
+}
+
+.sosmed .box-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sosmed .box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  border: solid 1px;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+}
+
+.sosmed .box:hover {
+  background-color: var(--grey);
+}
+
+.sosmed .box p {
+  font-size: 20px;
+}
+
+.sosmed img {
+  width: 40px;
+}
+
+#contact form {
+  padding-inline: 300px;
+}
+
+#contact input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: solid 1px black;
+  margin-bottom: 10px;
+}
+
+#contact label {
+  font-weight: 600;
+}
+
+#contact textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: solid 1px;
+  margin-top: 10px;
+  padding: 12px;
+  resize: none;
+}
+
+#contact button {
+  display: block;
+  margin-inline: auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: solid 1px black;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--maroon);
+  color: white;
+  padding: 20px;
+}
